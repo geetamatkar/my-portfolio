@@ -63,7 +63,7 @@ const Landing = ({ setSelectedPage }) => {
 
                         </p>
 
-                        <h5 className='pt-20 text-xl '>Software Engineer | Graduate Student</h5>
+                        <h5 className='pt-20 text-xl text-center md:text-start '>Software Engineer | Graduate Student</h5>
 
                         <p className="mt-10 mb-7 text-sm text-center md:text-start">
                             
