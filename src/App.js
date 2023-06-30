@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./components/Navbar"
 import DotGroup from "./components/DotGroup";
+import Landing from "./components/Landing";
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
+
+        <Landing setSelectedPage={setSelectedPage} />
 
       </div>
       
