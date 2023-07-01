@@ -24,7 +24,7 @@ const Project = ({ title, href }) => {
     return (
       <motion.div variants={projectVariant} className="relative">
         <div className={overlayStyles}>
-          <p className=" text-base font-playfair">{title}</p>
+          <p className=" text-2xl font-playfair">{title}</p>
           <p className="mt-7">
 
             <a
@@ -78,7 +78,7 @@ const Projects = () => {
             {/* Projects */}
             <div className='flex justify-center'>
                 <motion.div
-                    className="sm:grid sm:grid-cols-3 gap-5"
+                    className="sm:grid sm:grid-cols-3 gap-5 mb-44"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
