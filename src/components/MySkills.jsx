@@ -25,10 +25,14 @@ const MySkills = ()=>  {
                     <p className='font-playfair font-semibold text-4xl mb-5 text-center'>
                         MY <span className="text-red">SKILLS</span>
                     </p>
-                    <LineGradient width="1/30" />
+
+                    <div className="flex justify-center mt-5">
+                       <LineGradient width="w-1/4" />
+                    </div>
+                    
 
 
-                    <div className='grid grid-cols-4 gap-5 pt-20 '>
+                    <div className='grid grid-cols-7 gap-5 pt-20 '>
                     <div>
                         <img
                         alt='react'
@@ -115,7 +119,7 @@ const MySkills = ()=>  {
                     <div>
                         <img
                         alt='mongo db'
-                        src='https://i.pinimg.com/originals/67/1c/c0/671cc012b210a2508413465fb48510da.png'
+                        src='https://www.tutorialsteacher.com/Content/images/home/mongodb.svg'
                         className='h-20'
                         />
 
@@ -151,7 +155,7 @@ const MySkills = ()=>  {
                     <div>
                         <img
                         alt='python'
-                        src='https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png'
+                        src='https://static-00.iconduck.com/assets.00/python-icon-512x512-48og66bp.png'
                         className='h-20'
                         />
 

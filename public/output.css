@@ -573,12 +573,56 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 480px){
+  .container{
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 620px){
+  .container{
+    max-width: 620px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1060px){
+  .container{
+    max-width: 1060px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1700px){
+  .container{
+    max-width: 1700px;
+  }
+}
+
 .visible{
   visibility: visible;
 }
 
 .fixed{
   position: fixed;
+}
+
+.absolute{
+  position: absolute;
 }
 
 .relative{
@@ -625,6 +669,10 @@ video {
   z-index: 20;
 }
 
+.m-20{
+  margin: 5rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -669,6 +717,14 @@ video {
 
 .mb-5{
   margin-bottom: 1.25rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
 }
 
 .flex{
@@ -739,6 +795,26 @@ video {
   height: 0.5rem;
 }
 
+.h-\[800px\]{
+  height: 800px;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.max-h-\[400px\]{
+  max-height: 400px;
+}
+
+.max-h-\[50px\]{
+  max-height: 50px;
+}
+
+.max-h-\[800px\]{
+  max-height: 800px;
+}
+
 .w-5\/6{
   width: 83.333333%;
 }
@@ -775,8 +851,32 @@ video {
   width: 5rem;
 }
 
+.w-2\/3{
+  width: 66.666667%;
+}
+
+.w-1\/4{
+  width: 25%;
+}
+
+.w-\[400px\]{
+  width: 400px;
+}
+
 .max-w-\[400px\]{
   max-width: 400px;
+}
+
+.max-w-\[1000px\]{
+  max-width: 1000px;
+}
+
+.max-w-\[10000px\]{
+  max-width: 10000px;
+}
+
+.max-w-\[800px\]{
+  max-width: 800px;
 }
 
 .basis-3\/5{
@@ -804,6 +904,18 @@ video {
 
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5{
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-cols-7{
+  grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -854,6 +966,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -890,6 +1006,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-grey{
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 237 237 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-rainbow{
@@ -961,6 +1082,14 @@ video {
   padding: 10rem;
 }
 
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-16{
+  padding: 4rem;
+}
+
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -1001,6 +1130,11 @@ video {
   padding-right: 10rem;
 }
 
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pt-20{
   padding-top: 5rem;
 }
@@ -1023,6 +1157,30 @@ video {
 
 .pl-40{
   padding-left: 10rem;
+}
+
+.pb-48{
+  padding-bottom: 12rem;
+}
+
+.pt-48{
+  padding-top: 12rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pl-20{
+  padding-left: 5rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
+}
+
+.pt-40{
+  padding-top: 10rem;
 }
 
 .text-center{
@@ -1065,6 +1223,11 @@ video {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold{
@@ -1123,6 +1286,10 @@ video {
 
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-out{
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 html,
@@ -1233,6 +1400,11 @@ body,
   background-color: rgb(44 188 233 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-50:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .hover\:text-yellow:hover{
   --tw-text-opacity: 1;
   color: rgb(253 204 73 / var(--tw-text-opacity));
@@ -1250,6 +1422,10 @@ body,
 
 .hover\:opacity-50:hover{
   opacity: 0.5;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
 }
 
 .hover\:grayscale:hover{
@@ -1307,6 +1483,20 @@ body,
   }
 }
 
+@media (min-width: 768px){
+  .sm\:grid{
+    display: grid;
+  }
+
+  .sm\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 1060px){
   .md\:order-2{
     order: 2;
@@ -1332,6 +1522,10 @@ body,
     width: 100%;
   }
 
+  .md\:w-2\/5{
+    width: 40%;
+  }
+
   .md\:max-w-\[600px\]{
     max-width: 600px;
   }
@@ -1350,6 +1544,11 @@ body,
 
   .md\:gap-16{
     gap: 4rem;
+  }
+
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .md\:text-start{

@@ -5,6 +5,7 @@ import DotGroup from "./components/DotGroup";
 import Landing from "./components/Landing";
 import LineGradient from "./features/LineGradient";
 import MySkills from "./components/MySkills";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -49,7 +50,12 @@ function App() {
 
       <div className="w-5/6 mx-auto md:h-full ">
         <MySkills />
+      </div>
 
+      <LineGradient />
+
+      <div className="w-5/6 mx-auto md:h-full ">
+        <Projects />
       </div>
       
     </div>
