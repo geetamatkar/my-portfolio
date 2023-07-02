@@ -6,13 +6,9 @@ import { motion } from 'framer-motion'
 const About = () => {
   return (
     <div className='flex flex-col relative h-screen md:text-left md-flex-row max-w-7xl px-10 justify-evenly mx-auto items-center mb-20 '>
-        <p className='absolute top-20 font-playfair font-semibold text-4xl mb-30 pb-30 pt-5 bottom-20'>
+        <p className='absolute top-10 font-playfair font-semibold text-4xl mb-30 pb-30 pt-5 bottom-20'>
             ABOUT <span className="text-red">ME</span>
         </p>
-
-        <div className="absolute flex justify-center mt-5">
-            <LineGradient width="w-1/4" />
-        </div>
 
         
             <motion.img
@@ -30,7 +26,7 @@ const About = () => {
             />
 
             <div className='space-y-10 px-0 md:px-10'>
-                <p>
+                <p className='text-center'>
                 I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React.js for front-end 
                 development, and Node.js for back-end development. I have a strong aptitude for learning and a passion for crafting efficient,
                 scalable, and user-friendly solutions that effectively address real-world problems. Let's work together to bring ideas to 
