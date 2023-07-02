@@ -10,7 +10,7 @@ const About = () => {
             ABOUT <span className="text-red">ME</span>
         </p>
 
-        
+              
             <motion.img
                 initial={{
                     x:-200,
@@ -35,10 +35,9 @@ const About = () => {
                 </p>
 
             </div>
+        </div>
 
         
-
-    </div>
   )
 }
 

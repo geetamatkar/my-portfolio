@@ -19,7 +19,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                {<img className="object-scale-down h-7 " alt="github-link" src="../assets/github-logo-icon_.png" />}
+                {<img className="object-scale-down h-8 " alt="github-link" src="../assets/github-2-img.png" />}
                { /*<GitHubIcon className="object-scale-down h-7" /> */}
             </a>
 

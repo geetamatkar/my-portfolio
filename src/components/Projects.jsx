@@ -16,7 +16,7 @@ const projectVariant = {
     visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, href }) => {
+const Project = ({ title, href, web }) => {
     const overlayStyles = `absolute w-full h-full opacity-0 hover:opacity-90 transition transform duration-500 ease-out
       bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -27,14 +27,31 @@ const Project = ({ title, href }) => {
           <p className=" text-2xl font-playfair">{title}</p>
           <p className="mt-7">
 
+            <div className='flex h-full'>
+
+            
+
             <a
               href={href}
               target="_blank"
               rel="noreferrer"
             >
-                <img className="object-scale-down h-7 " alt="github-link" src="../assets/github-logo-icon_.png" />
+                <img className="object-scale-down h-7 " alt="github-link" src="../assets/github-logo.png" />
                 
             </a>
+
+            <a
+              href={web}
+              target="_blank"
+              rel="noreferrer"
+            >
+                <img className="object-scale-down h-6 " alt="deploy-link" src="../assets/link.png" />
+                
+            </a>
+
+            </div>
+
+
           </p>
         </div>
         <img className='h-full w-full' src={`../assets/${projectTitle}.png`} alt={projectTitle} />
@@ -93,13 +110,13 @@ const Projects = () => {
                     </div>
 
                    
-                    <Project title="Amazon-Clone" href="https://github.com/geetamatkar/amazon-clone"/>
+                    <Project title="Amazon-Clone" href="https://github.com/geetamatkar/amazon-clone" web="https://web-7747c.web.app"/>
 
-                    <Project title="Airbnb-Clone" href="https://github.com/geetamatkar/airbnb" />
+                    <Project title="Airbnb-Clone" href="https://github.com/geetamatkar/airbnb" web="https://airbnb-5ck68w2lx-geetamatkar.vercel.app/" />
 
-                    <Project title="three-JS" href="https://github.com/geetamatkar/productVR"/>
+                    <Project title="three-JS" href="https://github.com/geetamatkar/productVR" web="https://threejs-4wm118yxp-geetamatkar.vercel.app/"/>
 
-                    <Project title="Netflix-Clone" href="https://github.com/geetamatkar/netflix-clone" />
+                    <Project title="Netflix-Clone" href="https://github.com/geetamatkar/netflix-clone" web="https://netflix-clone-tau-lime.vercel.app/"/>
 
                     
 

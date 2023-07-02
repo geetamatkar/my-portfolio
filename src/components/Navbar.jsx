@@ -32,7 +32,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
 
                 {/* Desktop Nav */}
                 {isAboveSmallScreens ? (
-                    <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+                    <div className="flex justify-between gap-10 font-opensans text-sm font-semibold">
                        <Link
                             page="Home"
                             selectedPage={selectedPage}
@@ -43,7 +43,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
                             page="About"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
-                       />
+                        />
 
                         <Link
                             page="Skills"
@@ -90,9 +90,15 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
 
                         { /* Menu items */}
 
-                        <div className="flex flex-col gap-10 ml-10 text-2xl text-deep-blue">
+                        <div className="flex flex-col gap-7 ml-10 text-2xl text-deep-blue">
                             <Link
                                 page="Home"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+
+                            <Link
+                                page="About"
                                 selectedPage={selectedPage}
                                 setSelectedPage={setSelectedPage}
                             />

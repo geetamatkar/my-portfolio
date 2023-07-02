@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SocialMediaIcons from '../features/SocialMediaIcons'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import Resume from '../features/Resume'
 
 
 
@@ -109,17 +110,17 @@ const Landing = ({ setSelectedPage }) => {
                         </AnchorLink>
 
 
-                        <AnchorLink
+                        <a
                           className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-                          onClick={() => setSelectedPage("contact")}
-                          href="#contact"
+                          target="_blank"
+                          href="https://calendly.com/geetassmatkar"
                         >
                             <div
                               className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair"
                             >
-                                Let's Talk
+                                Schedule Meeting
                             </div>
-                        </AnchorLink>
+                        </a>
 
                     </motion.div>
 
