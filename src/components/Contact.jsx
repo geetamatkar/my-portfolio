@@ -14,7 +14,7 @@ const Contact = () => {
   const onSubmit = async (e) => {
     //console.log("~ e", e);
     const isValid = await trigger();
-    
+
     if (!isValid) {
       e.preventDefault();
     }
@@ -35,7 +35,7 @@ const Contact = () => {
             className="flex justify-end w-full"
         >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-playfair font-semibold text-4xl items-center">
             <span className="text-yellow">CONTACT ME</span> TO GET STARTED
           </p>
           <div className="flex md:justify-end my-5">
@@ -57,7 +57,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/Email-img.png" alt="contact" />
+          <img src="../assets/Email-img.png" alt="contact" className='max-h-[445px]'/>
         </motion.div>
 
         <motion.div

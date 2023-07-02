@@ -1,3 +1,5 @@
+//import GitHubIcon from '@mui/icons-material/GitHub';
+
 const SocialMediaIcons = () => {
     return (
         <div className="flex justify-center md:justify-start my-10 gap-7">
@@ -17,7 +19,8 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                <img className="object-scale-down h-7 " alt="github-link" src="../assets/github-logo-icon_.png" />
+                {<img className="object-scale-down h-7 " alt="github-link" src="../assets/github-logo-icon_.png" />}
+               { /*<GitHubIcon className="object-scale-down h-7" /> */}
             </a>
 
         </div>
