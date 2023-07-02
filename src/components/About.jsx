@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <div className='flex flex-col relative h-screen md:text-left md-flex-row max-w-7xl px-10 justify-evenly mx-auto items-center mb-20 '>
+    <div id='about' className='flex flex-col relative h-screen md:text-left md-flex-row max-w-7xl px-10 justify-evenly mx-auto items-center mb-20 '>
         <p className='absolute top-10 font-playfair font-semibold text-4xl mb-30 pb-30 pt-5 bottom-20'>
             ABOUT <span className="text-red">ME</span>
         </p>

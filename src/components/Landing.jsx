@@ -3,9 +3,18 @@ import useMediaQuery from '../hooks/useMediaQuery'
 import { motion } from 'framer-motion'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SocialMediaIcons from '../features/SocialMediaIcons'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
+
+
 
 const Landing = ({ setSelectedPage }) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+
+    const [text, count] = useTypewriter({
+      words:["Software Engineer","Full Stack Developer"],
+      loop: true,
+      delaySpeed: 2000,
+    })
 
     return (
         <section id='home' className='md:flex md:justify-between md:items-center md:h-full gap-16 py-10'>
@@ -63,7 +72,10 @@ const Landing = ({ setSelectedPage }) => {
 
                         </p>
 
-                        <h5 className='pt-20 text-xl text-center md:text-start '>Software Engineer | Graduate Student</h5>
+                        <h5 className='pt-20 text-xl text-center md:text-start '>
+                        <span className='pt-20 text-xl text-center md:text-start '>I'm a {text}</span>
+                        <Cursor cursorColor='yellow'></Cursor>
+                        </h5>
 
                         <p className="mt-10 mb-7 text-sm text-center md:text-start">
                             
