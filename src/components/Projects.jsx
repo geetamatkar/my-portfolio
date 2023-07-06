@@ -27,8 +27,7 @@ const Project = ({ title, href, web }) => {
           <p className=" text-2xl font-playfair">{title}</p>
           <p className="mt-7">
 
-            <div className='flex h-full'>
-
+            <div className='flex gap-6'>
             
 
             <a
@@ -36,7 +35,7 @@ const Project = ({ title, href, web }) => {
               target="_blank"
               rel="noreferrer"
             >
-                <img className="object-scale-down h-7 " alt="github-link" src="../assets/github-logo.png" />
+                <img className="object-scale-down h-7  " alt="github-link" src="../assets/github-2-1-logo.png" />
                 
             </a>
 
@@ -45,7 +44,7 @@ const Project = ({ title, href, web }) => {
               target="_blank"
               rel="noreferrer"
             >
-                <img className="object-scale-down h-6 " alt="deploy-link" src="../assets/link.png" />
+                <img className="object-scale-down h-7 " alt="deploy-link" src="../assets/link.png" />
                 
             </a>
 
@@ -109,6 +108,9 @@ const Projects = () => {
                         USER INTERFACES
                     </div>
 
+                  
+                  
+
                    
                     <Project title="Amazon-Clone" href="https://github.com/geetamatkar/amazon-clone" web="https://web-7747c.web.app"/>
 
@@ -117,6 +119,8 @@ const Projects = () => {
                     <Project title="three-JS" href="https://github.com/geetamatkar/productVR" web="https://threejs-4wm118yxp-geetamatkar.vercel.app/"/>
 
                     <Project title="Netflix-Clone" href="https://github.com/geetamatkar/netflix-clone" web="https://netflix-clone-tau-lime.vercel.app/"/>
+
+                    <Project title="AI-Image-Generator" href="https://github.com/geetamatkar/ai-image-generator" />
 
                     
 

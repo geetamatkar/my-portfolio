@@ -72,7 +72,7 @@ const Contact = () => {
             className="basis-1/2 mt-10 md:mt-0"
         >
             <form
-              target='_blank'
+              //target='_blank'
               onSubmit={onSubmit}
               action='https://formsubmit.co/9702151d021e76aabea09c341bbfba5e'
               method='POST'

@@ -2,14 +2,14 @@
 
 const SocialMediaIcons = () => {
     return (
-        <div className="flex justify-center md:justify-start my-10 gap-7">
+        <div className="flex flex-row justify-center md:justify-start my-10 gap-7">
             <a
                 className="hover:opacity-50 transition duration-500"
                 href="https://www.linkedin.com/in/geeta-matkar-a7a820179/"
                 target="_blank"
                 rel="noreferrer"
             >
-                <img className="h-7" alt="linkedin-link" src="../assets/linkedin.png" />
+                <img className="object-scale-down h-8 "  alt="linkedin-link" src="../assets/linkedin.png" />
             </a>
 
 
@@ -19,7 +19,17 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                {<img className="object-scale-down h-8 " alt="github-link" src="../assets/github-2-img.png" />}
+                {<img className="object-scale-down h-8" alt="github-link" src="../assets/github-2-img.png" />}
+               { /*<GitHubIcon className="object-scale-down h-7" /> */}
+            </a>
+
+            <a
+                className="hover:opacity-50 transition duration-500"
+                href="https://drive.google.com/file/d/18ZO03mJc9OyMNs92WDFIgV8v5dbVAk1R/view?usp=drive_link"
+                target="_blank"
+                rel="noreferrer"
+            >
+                {<img className="object-scale-down h-8 " alt="resume-link" src="../assets/res-full-doc.png" />}
                { /*<GitHubIcon className="object-scale-down h-7" /> */}
             </a>
 

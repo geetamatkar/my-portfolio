@@ -37,7 +37,7 @@ const MySkills = ()=>  {
                         <img
                         alt='react'
                         src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
-                        className='h-20'
+                        className='h-20 '
                         
                         />
                        
