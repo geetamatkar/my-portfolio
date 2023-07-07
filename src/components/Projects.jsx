@@ -112,7 +112,7 @@ const Projects = () => {
                   
 
                    
-                    <Project title="Amazon-Clone" href="https://github.com/geetamatkar/amazon-clone" web="https://web-7747c.web.app"/>
+                    <Project title="Amazon-Clone" href="https://github.com/geetamatkar/amazon-clone" web="https://web-7747c.web.app" />
 
                     <Project title="Airbnb-Clone" href="https://github.com/geetamatkar/airbnb" web="https://airbnb-5ck68w2lx-geetamatkar.vercel.app/" />
 

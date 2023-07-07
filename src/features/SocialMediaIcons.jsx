@@ -29,9 +29,22 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                {<img className="object-scale-down h-8 " alt="resume-link" src="../assets/res-full-doc.png" />}
-               { /*<GitHubIcon className="object-scale-down h-7" /> */}
+                {<img className="object-scale-down h-8 " alt="resume-link" src="../assets/res-bg-doc.png" />}
+               
             </a>
+
+            <a
+                className="hover:opacity-50 transition duration-500"
+                href="mailto:geetamatkar1@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+            >
+                {<img className=" h-8 object-contain rounded-lg " alt="email-link" src="../assets/gmail-logo-bg.png" />}
+               
+            </a>
+
+
+            
 
         </div>
     )

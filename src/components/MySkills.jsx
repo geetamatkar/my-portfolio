@@ -37,7 +37,7 @@ const MySkills = ()=>  {
                         <img
                         alt='react'
                         src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
-                        className='h-20 '
+                        className='h-20 w-20'
                         
                         />
                        
@@ -47,8 +47,9 @@ const MySkills = ()=>  {
                     <div>
                         <img
                         alt='javascript'
-                        src='https://www.training-dev.fr/Img/Category/Js.png'
-                        className='h-20 '
+                        //src='https://www.training-dev.fr/Img/Category/Js.png'
+                        src='https://cdn.worldvectorlogo.com/logos/javascript-1.svg'
+                        className='h-20 w-20'
                         />
 
                     </div>
@@ -65,8 +66,9 @@ const MySkills = ()=>  {
                     <div>
                         <img
                         alt='css'
-                        src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png'
-                        className='h-20'
+                        //src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png'
+                        src='https://cdn.worldvectorlogo.com/logos/css-3.svg'
+                        className='h-20 w-20'
                         />
 
                     </div>
@@ -75,7 +77,7 @@ const MySkills = ()=>  {
                         <img
                         alt='node'
                         src='https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png'
-                        className='h-20'
+                        className='h-20 w-20'
                         />
 
                     </div>
@@ -111,7 +113,7 @@ const MySkills = ()=>  {
                         <img
                         alt='redux'
                         src='https://miro.medium.com/v2/resize:fit:400/1*0nHtg7jz-cd49KIb-Za8lg.png'
-                        className='h-20'
+                        className='h-20 w-20'
                         />
 
                     </div>
@@ -147,7 +149,7 @@ const MySkills = ()=>  {
                         <img
                         alt='java'
                         src='https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png'
-                        className='h-20'
+                        className='h-20 w-20'
                         />
 
                     </div>
