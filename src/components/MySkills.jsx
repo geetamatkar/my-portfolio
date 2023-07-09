@@ -42,7 +42,7 @@ const MySkills = ()=>  {
                     
 
 
-                    <div className='grid grid-cols-7 gap-y-20 gap-5 pt-20 '>
+                    <div className='grid grid-cols-4 md:grid-cols-5 gap-y-20 gap-5 pt-20 '>
                     <motion.div className='relative'>
                         <img
                         alt='react'
