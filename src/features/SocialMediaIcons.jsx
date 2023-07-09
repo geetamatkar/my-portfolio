@@ -39,7 +39,7 @@ const SocialMediaIcons = () => {
                 target="_blank"
                 rel="noreferrer"
             >
-                {<img className=" h-8 object-contain rounded-lg " alt="email-link" src="../assets/gmail-logo-bg.png" />}
+                {<img className=" h-8 object-contain rounded-md " alt="email-link" src="../assets/gmail-square.png" />}
                
             </a>
 

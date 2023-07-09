@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="pt-2 pb-5 w-10/12 mx-auto">
             <SocialMediaIcons />
             <div className="md:flex pt-2 pb-10 justify-center md:justify-between text-center ">
-                <p className="font-playfair font-semibold text-xl text-yellow">GEETA MATKAR</p>
-                <p className="font-playfair text-md text-yellow">©2023. All Rights Reserved</p>
+                {/*<p className="font-playfair font-semibold text-xl text-yellow">GEETA MATKAR</p>*/}
+                <p className="font-playfair text-md text-yellow">©2023 Geeta Sudhakar Matkar</p>
             </div>
 
         </div>
