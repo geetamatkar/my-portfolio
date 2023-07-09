@@ -116,7 +116,7 @@ const Projects = () => {
 
                     <Project title="Airbnb-Clone" href="https://github.com/geetamatkar/airbnb" web="https://airbnb-5ck68w2lx-geetamatkar.vercel.app/" />
 
-                    <Project title="three-JS" href="https://github.com/geetamatkar/productVR" web="https://threejs-4wm118yxp-geetamatkar.vercel.app/"/>
+                    <Project title="AI 3D Product Website" href="https://github.com/geetamatkar/productVR" web="https://threejs-4wm118yxp-geetamatkar.vercel.app/"/>
 
                     <Project title="Netflix-Clone" href="https://github.com/geetamatkar/netflix-clone" web="https://netflix-clone-tau-lime.vercel.app/"/>
 
