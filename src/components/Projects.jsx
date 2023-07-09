@@ -120,7 +120,7 @@ const Projects = () => {
 
                     <Project title="Netflix-Clone" href="https://github.com/geetamatkar/netflix-clone" web="https://netflix-clone-tau-lime.vercel.app/"/>
 
-                    <Project title="AI-Image-Generator" href="https://github.com/geetamatkar/ai-image-generator" />
+                    <Project title="AI-Image-Generator" href="https://github.com/geetamatkar/ai-image-generator"  />
 
                     
 
