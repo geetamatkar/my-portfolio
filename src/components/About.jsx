@@ -14,7 +14,6 @@ const About = () => {
         </p>
 
         <Tilt className='xs:w-[250px] w-full'>
-
               
             <motion.img
                 initial={{
@@ -30,6 +29,7 @@ const About = () => {
                 md:w-[300px] md:h-[400px] mt-10 pt-15'
             
             />
+            
         </Tilt>
 
             <div className='space-y-10 px-0 md:px-10'>

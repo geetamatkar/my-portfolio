@@ -1,5 +1,5 @@
 //import GitHubIcon from '@mui/icons-material/GitHub';
-
+// href="https://drive.google.com/file/d/12aFhZ4m1ZeutMwpr4IJOxr6BUOpupReb/view?usp=drive_link"
 const SocialMediaIcons = () => {
     return (
         <div className="flex flex-row justify-center md:justify-start my-10 gap-7">
@@ -25,7 +25,7 @@ const SocialMediaIcons = () => {
 
             <a
                 className="hover:opacity-50 transition duration-500"
-                href="https://drive.google.com/file/d/12aFhZ4m1ZeutMwpr4IJOxr6BUOpupReb/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1NAZ9Bf5P0plEggd70eT4D5_56k8-4iKX/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
             >
